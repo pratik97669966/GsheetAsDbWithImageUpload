@@ -6,7 +6,7 @@ package alabs.gsheetwithimage;
 
 public class Configuration {
 
-    public static final String APP_SCRIPT_WEB_APP_URL = "ADD YOUR APP SCRIPT WEB APP URL";
+    public static final String APP_SCRIPT_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwnkypYI1brXprResbDWIrLBiZz-wawQMAxaVEi3prmH1Q99h6VVV_178cAa4tyj-1xig/exec";
     public static final String ADD_USER_URL = APP_SCRIPT_WEB_APP_URL;
     public static final String LIST_USER_URL = APP_SCRIPT_WEB_APP_URL+"?action=readAll";
 

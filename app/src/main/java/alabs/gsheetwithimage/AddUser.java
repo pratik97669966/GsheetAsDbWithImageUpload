@@ -5,13 +5,21 @@ package alabs.gsheetwithimage;
  */
 
 
+import static alabs.gsheetwithimage.Configuration.ADD_USER_URL;
+import static alabs.gsheetwithimage.Configuration.KEY_ACTION;
+import static alabs.gsheetwithimage.Configuration.KEY_ID;
+import static alabs.gsheetwithimage.Configuration.KEY_IMAGE;
+import static alabs.gsheetwithimage.Configuration.KEY_NAME;
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
+
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
